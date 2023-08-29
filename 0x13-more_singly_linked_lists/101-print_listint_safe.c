@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * looped_listint_len - Counts the number of unique nodes
