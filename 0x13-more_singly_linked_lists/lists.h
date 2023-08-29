@@ -12,9 +12,10 @@
  * Description: singly linked list node structure
  * ALX
  */
-typedef struct listint_t {
-  int n;
-  struct listint_t *next;
+typedef struct listint_t
+{
+int n;
+struct listint_t *next;
 } listint_t;
 
 size_t print_listint(const listint_t *h);
