@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* create_file.
-* @filename: A file to create.
+* create_file - Create file.
+* @filename: Name of  file to create.
 * @text_content: Write string to file.
 *
-* Return
+* Return: if the funtion fails
 * Otherwise
 */
 int create_file(const char *filename, char *text_content)
